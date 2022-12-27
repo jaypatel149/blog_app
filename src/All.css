@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navgurukul {
+  text-align: center;
+  color: #1a28ee;
+}
+.navgurukul:hover {
+  color: #b9cc0b;
+}
+/* image dtyle */
+.my__image {
+  width: 75%;
+  border-radius: 50%;
+  margin: 2.5rem 2.7rem 0;
+}
+
+.name__style {
+  text-align: center;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+}
+.name__style:hover {
+  color: #2e1bdf;
+}
+
+.textstyle {
+  box-shadow: inset 0 0 0 0 #35ec08;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.textstyle:hover {
+  box-shadow: inset 180px 0 0 0 #35ec08;
+  color: #000;
+}
+.address:hover {
+  text-decoration: underline;
+}
+
+/* service component */
+
+.card_div {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.card_div:hover{
+    background-color:#1c41ba;
+}
+
+/* buuton style */
+.slide {
+    box-shadow: inset 0 0 0 0 #39D604;
+    border-radius: 2rem;
+    color: #000;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .slide:hover {
+    box-shadow: inset 110px 0 0 0 #39D604;
+    border: none;
+    color: #000;
+  }
