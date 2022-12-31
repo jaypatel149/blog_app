@@ -16,7 +16,7 @@ import {
 const Login = () => {
   return (
     <Container>
-    <Row style={{marginTop:'5rem'}}>
+    <Row style={{marginTop:'5rem',marginBottom:'5rem'}}>
       <Col sm={{ size: 6, offset: 3 }}>
         <Card color="dark" inverse>
           <CardHeader> <h3>Login Here !!</h3> </CardHeader>

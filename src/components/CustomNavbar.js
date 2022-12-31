@@ -1,12 +1,10 @@
 import "../All.css";
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import { NavLink as ReactLink } from "react-router-dom";
 import { ColorModeContext } from "./switchmode/SwitchMode";
-import Brightness4Icon from '@mui/icons-material/Brightness4';
-import Brightness7Icon from '@mui/icons-material/Brightness7';
-import IconButton from '@mui/material/IconButton';
-
-
+import Brightness4Icon from "@mui/icons-material/Brightness4";
+import Brightness7Icon from "@mui/icons-material/Brightness7";
+import IconButton from "@mui/material/IconButton";
 
 import {
   Collapse,
@@ -17,14 +15,13 @@ import {
   NavItem,
   NavLink,
   Button,
-
 } from "reactstrap";
 
 const CustomNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const {mode , toggleMode} = useContext(ColorModeContext);
+  const { mode, toggleMode } = useContext(ColorModeContext);
   // console.log('mode ', mode);
 
   return (
@@ -60,15 +57,34 @@ const CustomNavbar = () => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <IconButton onClick={toggleMode} >
-                {mode === 'light' ?<Brightness4Icon/>:<Brightness7Icon/>}
+              <NavLink
+                tag={ReactLink}
+                to="/addblog"
+                style={{ color: "#FFFFFF" }}
+              >
+                AddBlogs
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <IconButton onClick={toggleMode}>
+                {mode === "light" ? <Brightness4Icon /> : <Brightness7Icon />}
               </IconButton>
             </NavItem>
           </Nav>
-          <Button outline tag={ReactLink} to="/login" style={{marginRight:'1rem',color:'#fff',border:'none'}}>
+          <Button
+            outline
+            tag={ReactLink}
+            to="/login"
+            style={{ marginRight: "1rem", color: "#fff", border: "none" }}
+          >
             Login
           </Button>
-          <Button outline tag={ReactLink} to="signup" style={{color:'#fff',marginRight:'1rem',border:'none'}}>
+          <Button
+            outline
+            tag={ReactLink}
+            to="signup"
+            style={{ color: "#fff", marginRight: "1rem", border: "none" }}
+          >
             SignUp
           </Button>
         </Collapse>

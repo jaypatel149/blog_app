@@ -61,7 +61,7 @@ const contactsArray = [
 const Contact = () => {
   return (
     <Container>
-      <Row style={{ marginTop: "5rem" ,rowGap:'2rem'}}>
+      <Row style={{ marginTop: "5rem" ,marginBottom:'5rem',rowGap:'2rem'}}>
       <h2 className='navgurukul'> NavGurukul Members</h2>
         {contactsArray.map((items,id) => {
           return (

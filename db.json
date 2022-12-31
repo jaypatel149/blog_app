@@ -1,0 +1,52 @@
+{
+  "blogs": [
+    {
+      "title": "Food Blog",
+      "description": "We are dedicated to addressing food insecurity for homebound seniors and other vulnerable neighbors. We provide food and pantry items to those in need, including thousands of nutritious meals prepared in our onsite kitchen each week.",
+      "category": "Food",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672404698/hipqatn5p4hjwjhixe6m.jpg",
+      "date": "12/30/2022",
+      "id": 1
+    },
+    {
+      "title": "Food Meals",
+      "description": "As the lead Meals on Wheels contractor for the East Side of Manhattan from 59th Street to 142nd Street, we deliver seven meals a week to homebound seniors in direct collaboration with partner agencies, including the Carter Burden Center, Union Settlement Association and Roosevelt Island Senior Center.",
+      "category": "Food",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672404802/rolk9n9jqom7j2wjhkvf.jpg",
+      "date": "12/30/2022",
+      "id": 2
+    },
+    {
+      "title": "Travel Blog",
+      "description": "Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.[1] Travel can also include relatively short stays between successive movements, as in the case of tourism.",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405039/mxaslj1uwmrpvpts30yh.jpg",
+      "date": "12/30/2022",
+      "id": 3
+    },
+    {
+      "title": "Travel ",
+      "description": "The origin of the word \"travel\" is most likely lost to history. The term \"travel\" may originate from the Old French word travail, which means 'work'.[2] According to the Merriam-Webster dictionary, the first known use of the word travel was in the 14th century. It also states that the word comes from Middle English travailen, travelen (which means to torment, labor, strive, journey) and earlier from Old French travailler (which means to work strenuously, toil).",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405103/frbfbnsrx6t6y4kf5acu.jpg",
+      "date": "12/30/2022",
+      "id": 4
+    },
+    {
+      "title": "Fitness Blog",
+      "description": "BlueLight Health envisions a world where living a healthy lifestyle comes naturally and is integrated into everyday life.",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405552/vwcqnmybvacyaaosajkf.webp",
+      "date": "12/30/2022",
+      "id": 5
+    },
+    {
+      "title": "Tech Blog",
+      "description": "Data scientists. Male programmer using laptop analyzing and developing in various information on futuristic virtual interface screen. Algorithm. marketing and deep learning of artificial intelligence stock photo\n",
+      "category": "Tech",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405843/vpbuvhmm3nrdez4wzaju.jpg",
+      "date": "12/30/2022",
+      "id": 6
+    }
+  ]
+}
