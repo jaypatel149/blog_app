@@ -2,15 +2,15 @@ import React from "react";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-
 import "../All.css";
+import { Col, Container, Row } from "reactstrap";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="container grid grid--footer">
-        <div className="logo-col">
-        <h4>NavGurukul</h4>
+    <Container className="footer" fluid>
+      <Row>
+        <Col lg='3' md='4' sm='6' xs='12'>
+        <h4 style={{display:'flex', justifyContent:'center',color:'white'}}>NavGurukul</h4>
           <ul className="social-links">
             <li>
               <a className="footer-link" href="/facebook">
@@ -32,9 +32,9 @@ const Footer = () => {
             Copyright &copy; <span className="year">2027</span> by navgurukul,
             Inc. All rights reserved.
           </p>
-        </div>
-        <div className="address-col">
-          <p className="footer-heading">Contact us</p>
+        </Col>
+        <Col lg='3' md='4' sm='6' xs='12'>
+          <h4 className="footer-heading">Contact us</h4>
           <address className="contacts">
             <p className="address">
               Navgurukul Dharamsala himanchal Pradesh fatehpur - 176057
@@ -49,9 +49,9 @@ const Footer = () => {
               </a>
             </p>
           </address>
-        </div>
-        <nav className="nav-col">
-          <p className="footer-heading">Account</p>
+        </Col>
+        <Col lg='2' md='4' sm='6' xs='12'>
+          <h4 className="footer-heading">Account</h4>
           <ul className="footer-nav">
             {["Create account", "Sing in", "ios app", "Android app"].map(
               (item) => (
@@ -63,10 +63,10 @@ const Footer = () => {
               )
             )}
           </ul>
-        </nav>
+        </Col>
 
-        <nav className="nav-col">
-          <p className="footer-heading">Company</p>
+        <Col lg='2' md='4' sm='6' xs='12'>
+          <h4 className="footer-heading">Company</h4>
           <ul className="footer-nav">
             {[
               "About Navgurukul",
@@ -81,9 +81,9 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-        </nav>
-        <nav className="nav-col">
-          <p className="footer-heading">Resources</p>
+        </Col>
+        <Col lg='2' md='4' sm='6' xs='12'>
+          <h4 className="footer-heading">Resources</h4>
           <ul className="footer-nav">
             {["test directory", "Help center", "Privacy & terms"].map(
               (item) => (
@@ -95,9 +95,9 @@ const Footer = () => {
               )
             )}
           </ul>
-        </nav>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
