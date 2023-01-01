@@ -47,6 +47,14 @@
       "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405843/vpbuvhmm3nrdez4wzaju.jpg",
       "date": "12/30/2022",
       "id": 6
+    },
+    {
+      "title": "Travel Blog",
+      "description": "We come across many of life's most beautiful images while travelling. Monuments, the bright lights of big cities like Las Vegas, magnificent landscapes. Unsplash captures it all, with a free selection of gorgeous travelling photos from every corner of the earth.",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672588787/q42npw61jexipdrunp2l.jpg",
+      "date": "01/01/2023",
+      "id": 7
     }
   ]
 }

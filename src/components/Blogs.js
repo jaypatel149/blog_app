@@ -24,7 +24,7 @@ const Blogs = ({
 }) => {
   return (
     <Container style={{ marginTop: "5rem" }}>
-      <Card>
+      <Card color="dark" inverse>
         <CardImg alt={title} src={imageUrl} width="100%" height='100%' top />
         <CardBody>
           <CardTitle
