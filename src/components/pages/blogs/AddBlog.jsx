@@ -168,7 +168,7 @@ const AddBlog = () => {
                 >
                   Submit
                 </button>
-                <button className="btn btn-outline-secondary w-25 text-white" onClick={() => navigate("/")}>
+                <button className="btn btn-outline-secondary text-white" onClick={() => navigate("/")}>
                   <ArrowBackIcon />
                   &nbsp;&nbsp; Go to back
                 </button>
