@@ -1,0 +1,20 @@
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.toggle{
+    margin-right: 70px;
+}
+
+
+@media (max-width: 576px) {
+    .logo{
+        margin-left: 0;
+    }
+    .toggle{
+        margin-right: 0;
+    }
+ }

@@ -1,0 +1,68 @@
+{
+  "blogs": [
+    {
+      "title": "Food Blog",
+      "description": "We are dedicated to addressing food insecurity for homebound seniors and other vulnerable neighbors. We provide food and pantry items to those in need, including thousands of nutritious meals prepared in our onsite kitchen each week.",
+      "category": "Food",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672404698/hipqatn5p4hjwjhixe6m.jpg",
+      "date": "12/30/2022",
+      "id": 1
+    },
+    {
+      "title": "Food Meals",
+      "description": "As the lead Meals on Wheels contractor for the East Side of Manhattan from 59th Street to 142nd Street, we deliver seven meals a week to homebound seniors in direct collaboration with partner agencies, including the Carter Burden Center, Union Settlement Association and Roosevelt Island Senior Center.",
+      "category": "Food",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672404802/rolk9n9jqom7j2wjhkvf.jpg",
+      "date": "12/30/2022",
+      "id": 2
+    },
+    {
+      "title": "Travel Blog",
+      "description": "Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.[1] Travel can also include relatively short stays between successive movements, as in the case of tourism.",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405039/mxaslj1uwmrpvpts30yh.jpg",
+      "date": "12/30/2022",
+      "id": 3
+    },
+    {
+      "title": "Travel ",
+      "description": "The origin of the word \"travel\" is most likely lost to history. The term \"travel\" may originate from the Old French word travail, which means 'work'.[2] According to the Merriam-Webster dictionary, the first known use of the word travel was in the 14th century. It also states that the word comes from Middle English travailen, travelen (which means to torment, labor, strive, journey) and earlier from Old French travailler (which means to work strenuously, toil).",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1672405103/frbfbnsrx6t6y4kf5acu.jpg",
+      "date": "12/30/2022",
+      "id": 4
+    },
+    {
+      "title": "Food ",
+      "description": "This article is about food for all organisms. For food for humans, see Human food. For other uses, see Food (disambiguation).\n\"Foodstuffs\" redirects here. For the New Zealand grocery company, see Foodstuffs (company).",
+      "category": "Food",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1689418711/o22prge3suzd2bb6uylx.jpg",
+      "date": "07/15/2023",
+      "id": 5
+    },
+    {
+      "title": "Travel",
+      "description": "Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one-way or round trip.[1] Travel can also include relatively short stays between successive movements, as in the case of tourism.",
+      "category": "Travel",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1689421944/nefzjyxkxecf5focixgq.jpg",
+      "date": "07/15/2023",
+      "id": 6
+    },
+    {
+      "title": "Fitness",
+      "description": "\nExercise is a subset of physical activity that is planned, structured, and repetitive and has as a final or an intermediate objective the improvement or maintenance of physical fitness. Physical fitness is a set of attributes that are either health- or skill-related.",
+      "category": "Fitness",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1689422363/u59wkjax21sau2hj94va.jpg",
+      "date": "07/15/2023",
+      "id": 7
+    },
+    {
+      "title": "Sport",
+      "description": "'Sport' means all forms of physical activity which, through casual or organised participation, aim at expressing or improving physical fitness and mental wellbeing, forming social relationships or obtaining results in competition at all levels.",
+      "category": "Sports",
+      "imageUrl": "http://res.cloudinary.com/dcexrqoje/image/upload/v1689422602/p1p45ck7cmzlaqwhaqlx.jpg",
+      "date": "07/15/2023",
+      "id": 8
+    }
+  ]
+}
